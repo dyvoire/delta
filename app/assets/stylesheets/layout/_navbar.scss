@@ -129,3 +129,15 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+.goldfont p {
+  color: $gold;
+}
+
+.goldfont:hover p {
+  color: $lightgold;
+}
+
+.goldfont:hover {
+  text-decoration: none !important;
+}
