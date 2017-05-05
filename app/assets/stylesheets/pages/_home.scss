@@ -2,8 +2,8 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
-.greyback {
-  background-color: #F6F6F6;
+.funkgrad {
+  background: linear-gradient(to right, $lightgold , $darkgold);
 }
 
 hr {
