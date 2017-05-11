@@ -3,7 +3,9 @@
  * (margin/padding adjustments)
  * ------------------------------------- */
 .funkgrad {
-  background: linear-gradient(to right, $lightgold , $darkgold);
+  background-image: url("gold.png");
+  background-color: $gold
+  // background: linear-gradient(to right, $lightgold , $darkgold);
 }
 
 hr {
