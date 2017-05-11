@@ -8,6 +8,16 @@
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
+
+  p {
+    padding-top: 10px;
+  };
+
+  .center {
+  padding-left: 87px;
+  // font-weight: bolder;
+  color: $darkgold;
+  };
 }
 
 /* Optional class to fix the navbar on top */
@@ -20,7 +30,8 @@
 }
 
 /* Navbar logo */
-.navbar-wagon-brand img {
+.navbar-wagon-brand
+  img {
   width: 50px;
 }
 
