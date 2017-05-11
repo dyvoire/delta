@@ -44,17 +44,17 @@
 }
 
 .card-school {
-  // margin-top: 20px;
+  margin-top: 20px;
   // margin-bottom: 5px;
   height: 200px;
   width: 300px;
   border-radius: 3px;
   position: relative;
-  padding: 0;
   background-color: white;
   box-shadow: 2px 4px 16px rgba(0,0,0,0.25);
   display:block;
-  margin:auto;
+  margin-right:auto;
+  margin-left:auto;
   p {
     font-size: 16px;
     text-align: left;
