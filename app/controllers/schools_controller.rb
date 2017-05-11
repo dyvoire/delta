@@ -6,8 +6,9 @@ class SchoolsController < ApplicationController
   end
 
   def show
-    @user = @School.user
-    @school = School.where(user: @user)
+    #@user = @School.user
+    #@school = School.where(user: @user)
+    @school = params[:id]
   end
 
   def new
