@@ -1,21 +1,20 @@
 <%= render 'shared/navbar' %>
 
-<div class="container" style="text-align: center;">
+<div class="funkgrad" style="text-align: center; padding-bottom: 20px;">
 <br>
 <h1>  <%= @school.upcase %> </h1>
 </div>
 
-
 <div class="container" style="text-align: center;">
 <br>
-<h4>Launching soon at <%= @school.upcase %></h4>
+<br>
+<div class="fb-send" data-href="http://wittyleague.com"></div><p>to your friends at <%= @school.upcase %></p>
+<br>
 <br>
 <h4>Enter your email address to become a <strong>premium member</strong> and get notified when we launch</h4>
 </div>
 
 <div class="container newsletter" style="text-align: center;">
 <%= render 'shared/newsletter' %>
-<p>don't worry, we hate spam as much as you do</p>
 </div>
-
 
